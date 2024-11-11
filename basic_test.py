@@ -6,8 +6,8 @@ def int_division():
     Return:
     - The result of the division (integer).
     """
-    pass
-
+    return 7//2
+print(int_division(),'int div')
 
 def float_multiplication():
     """
@@ -17,8 +17,8 @@ def float_multiplication():
     Return:
     - The result of the multiplication (float).
     """
-    pass
-
+    return 3.0*2
+print(float_multiplication())
 
 def combine_operations():
     """
@@ -28,8 +28,8 @@ def combine_operations():
     Return:
     - The combined result (float).
     """
-    pass
-
+    return float_multiplication()+int_division()
+print(combine_operations())
 
 def extract_word():
     """
@@ -39,7 +39,8 @@ def extract_word():
     Return:
     - The extracted word ('awesome').
     """
-    pass
+    return 'Python is awesome!'[10:-1]
+print(extract_word())
 
 
 def to_lowercase():
@@ -50,8 +51,8 @@ def to_lowercase():
     Return:
     - The lowercase version of the string.
     """
-    pass
-
+    return 'Python is awesome!'.lower()
+print(to_lowercase())
 
 def count_o():
     """
@@ -61,8 +62,8 @@ def count_o():
     Return:
     - The count of the letter 'o'.
     """
-    pass
-
+    return 'Python is awesome!'.count('o')
+print(count_o())
 
 def evaluate_boolean():
     """
@@ -72,4 +73,5 @@ def evaluate_boolean():
     Return:
     - The boolean result of the expression.
     """
-    pass
+    return not (5>3) and (10==5*2)
+print(evaluate_boolean())
